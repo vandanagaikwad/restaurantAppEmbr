@@ -1,0 +1,18 @@
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Address</th>
+    </tr>
+  </thead>
+  <tbody class="table table-bordered">
+    {{#each list as |pr|}}
+      <tr>
+        <td>{{pr.name}}</td>
+        <td>{{pr.types}}</td>
+        <td>{{pr.vicinity}}{{pr.formatted_address}}</td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>

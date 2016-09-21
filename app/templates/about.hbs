@@ -1,0 +1,29 @@
+<div class="jumbotron text-left">
+<h2>{{mTitle}}</h2>
+	<ul style="list-style-type:disc font:20px">
+	  <li class="li">Dominos Listing : </li>
+	  <p id="para">This is the location tracker app, to get the nearby Dominos shop list from user location.</p>
+
+	  <li class="li">Listing with current location : </li>
+	  <p id="para">Firstly we are getting the user current location by using Google's geolocation web service. And after that we are showing the list of Dominos shops which are nearby to users's current location.</p>
+	  <p id="para">For that we are getting the list of Dominos shop by calling the Google's Location list APIs. And then showing the same on google Map.</p>
+
+	  <li class="li">Listing with city : </li>
+	  <p id="para">We can also get the Dominos shop list by providing the city name, so that we can get all the shops with city by using the Google map APIs.</p>
+
+	  <li class="li">Google APIs : </li>
+	  <p id="para">We are using the Google's APIs for get nearby places list with current location and with city name.</p>
+
+	  <li class="li">Node.js : </li>
+	  <p id="para">We have integrated the Google's APIs in Node.js and getting the places list by calling Node.js web services.</p>
+
+	  <li class="li">Sample Google Map : </li>
+	  <div id="map">Map
+	  {{g-map lat=19.997453 lng=73.789802 zoom=12}}
+	  </div>
+	  
+	</ul>
+
+	
+
+</div>
